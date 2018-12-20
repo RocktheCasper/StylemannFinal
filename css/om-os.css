@@ -69,7 +69,7 @@
      grid-row-end: 3;
      font-family: "josefin slab";
      font-size: 18px;
-     margin-right: 20px;
+     margin-right: 40px;
  }
 
  #tekstfelt1 {
@@ -79,7 +79,7 @@
      grid-row-end: 4;
      font-family: "Open Sans";
      font-size: 15px;
-     margin-right: 20px;
+     margin-right: 40px;
  }
 
  #tekstfelt2 {
@@ -89,7 +89,7 @@
      grid-row-end: 5;
      font-family: "Open Sans";
      font-size: 15px;
-     margin-right: 20px;
+     margin-right: 40px;
  }
 
  .billede1 {
@@ -122,7 +122,7 @@
      grid-row-end: 3;
      font-family: "josefin slab";
      font-size: 18px;
-     margin-right: 20px;
+     margin-right: 40px;
  }
 
  #tekstfelt3 {
@@ -132,7 +132,7 @@
      grid-row-end: 4;
      font-family: "Open Sans";
      font-size: 15px;
-     margin-right: 20px;
+     margin-right: 40px;
  }
 
  #tekstfelt4 {
@@ -142,7 +142,7 @@
      grid-row-end: 5;
      font-family: "Open Sans";
      font-size: 15px;
-     margin-right: 20px;
+     margin-right: 40px;
  }
 
  img {

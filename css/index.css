@@ -178,8 +178,8 @@ p {
 
 @media screen and (max-width:830px) {
     .logo {
-        width: 350px;
-        height: 350px;
+        width: 320px;
+        height: 320px;
         top: 50%;
     }
 
@@ -343,7 +343,7 @@ footer {
 .page-container {
     display: grid;
     grid-template-columns: 12% 1fr 12%;
-    grid-template-rows: auto 400px auto 500px;
+    grid-template-rows: auto auto auto 500px;
     grid-gap: 20px;
     border: 20px solid #f4f4f2;
     border-bottom: 40px solid #f4f4f2;
@@ -377,7 +377,7 @@ footer {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
 }
 
 #link1 {
@@ -387,6 +387,10 @@ footer {
     grid-row-end: 2;
     width: 100%;
     height: 100%;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 220px 90px auto;
 }
 
 #link1 a {
@@ -405,6 +409,10 @@ footer {
     grid-row-end: 2;
     width: 100%;
     height: 100%;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 220px 90px auto;
 }
 
 #link2 a {
@@ -423,6 +431,9 @@ footer {
     grid-row-end: 2;
     width: 100%;
     height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 220px 90px auto;
 }
 
 #link3 a {
@@ -431,7 +442,7 @@ footer {
 }
 
 #link3 a:hover {
-    color: gray;
+    color: gray
 }
 
 #link4 {
@@ -441,6 +452,9 @@ footer {
     grid-row-end: 2;
     width: 100%;
     height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 220px 90px auto;
 }
 
 #link4 a {
@@ -470,11 +484,8 @@ footer {
     flex-direction: column;
     font-family: "Josefin Slab";
     font-size: 35px;
-    margin-top: 50px;
     padding-bottom: 70px;
-    margin-bottom: 100px;
 }
-
 
 /******************************BOX2SLUT********************************/
 
@@ -531,7 +542,7 @@ footer {
     .page-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto 420px auto 500px;
+        grid-template-rows: auto auto auto 500px;
 
     }
 
@@ -582,7 +593,7 @@ footer {
     .page-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto 840px auto 500px;
+        grid-template-rows: auto auto auto 500px;
     }
 
     #head-box {
@@ -601,7 +612,7 @@ footer {
         height: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto auto;
     }
 
     #link1 {
@@ -647,8 +658,6 @@ footer {
         grid-row-end: 4;
         width: 100%;
         height: 100%;
-        margin-top: 15%;
-        margin-bottom: 15%
     }
 
     #gallery {
@@ -671,7 +680,7 @@ footer {
     .page-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto 1680px auto 800px;
+        grid-template-rows: auto auto auto 800px;
         border-bottom: 80px solid #F5F5F5;
     }
 
@@ -692,7 +701,7 @@ footer {
         height: 100%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
 
     }
 
@@ -741,8 +750,6 @@ footer {
         grid-row-end: 4;
         width: 100%;
         height: 100%;
-        margin-top: 25vw;
-        margin-bottom: 40%
     }
 
     /******************************BOX2SLUT********************************/
@@ -813,14 +820,20 @@ footer {
 }
 
 .billede {
-    margin-top: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 #link1-overskrift {
-    margin: 10%;
     text-align: center;
     font-family: "Josefin Slab";
     font-size: 18px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 #link1-text {
@@ -828,13 +841,20 @@ footer {
     margin-right: 10%;
     font-size: 15px;
     font-family: "open sans";
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 #link2-overskrift {
-    margin: 10%;
     text-align: center;
     font-family: "Josefin Slab";
     font-size: 18px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 #link2-text {
@@ -842,14 +862,20 @@ footer {
     margin-right: 10%;
     font-size: 15px;
     font-family: "Open Sans";
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 #link3-overskrift {
-    margin-top: 10%;
-    margin-bottom: 10%;
     text-align: center;
     font-family: "Josefin Slab";
     font-size: 18px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 #link3-text {
@@ -857,13 +883,20 @@ footer {
     margin-right: 10%;
     font-size: 15px;
     font-family: "Open Sans";
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 #link4-overskrift {
-    margin: 10%;
     text-align: center;
     font-family: "Josefin Slab";
     font-size: 18px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 #link4-text {
@@ -871,6 +904,10 @@ footer {
     margin-right: 10%;
     font-size: 15px;
     font-family: "Open Sans";
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 .citat {
@@ -883,5 +920,65 @@ footer {
 
 #billede3 {}
 
+@media only screen and (max-width: 550px) {
+#link1-overskrift {
+}
 
+#link1-text {
+    margin-bottom: 30px;
+}
+
+#link2-overskrift {
+}
+
+#link2-text {
+    margin-bottom: 30px;
+}
+
+#link3-overskrift {
+     margin-bottom: 40px;
+}
+
+#link3-text {
+    margin-bottom: 40px;
+
+}
+
+#link4-overskrift {
+    margin-bottom: 40px;
+}
+
+#link4-text {
+
+}
+}
+@media only screen and (max-width: 1000px) {
+    #link1-overskrift {
+}
+
+#link1-text {
+    margin-bottom: 30px;
+}
+
+#link2-overskrift {
+}
+
+#link2-text {
+    margin-bottom: 30px;
+}
+
+#link3-overskrift {
+}
+
+#link3-text {
+
+}
+
+#link4-overskrift {
+}
+
+#link4-text {
+
+}
+}
 /***************************************FORSIDESLUT******************************************/

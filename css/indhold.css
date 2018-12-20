@@ -16,7 +16,7 @@
   #data-container {
       display: grid;
       grid-template-columns: 12% 34% 42% 12%;
-      grid-template-rows: 50px 500px;
+      grid-template-rows: 40px 500px;
       grid-gap: 20px;
       border: 20px solid #F5F5F5;
       background-color: #F5F5F5;
@@ -47,6 +47,7 @@
       grid-row-end: 3;
       font-family: "open sans";
       font-size: 15px;
+      padding-right: 40px;
   }
 
   img {
@@ -75,6 +76,7 @@
           grid-column-end: 3;
           grid-row-start: 1;
           grid-row-end: 3;
+          padding-right: 20px;
       }
 
       #tekst {
@@ -107,6 +109,7 @@
           grid-column-end: 2;
           grid-row-start: 2;
           grid-row-end: 3;
+          padding-right: 0px;
       }
 
       #tekst {
@@ -114,12 +117,13 @@
           grid-column-end: 2;
           grid-row-start: 3;
           grid-row-end: 4;
+          padding-right: 0px;
       }
   }
 
-  @media only screen and (min-width: 1500px) {
-      .page-container {
-          border-bottom: 100px solid #f4f4f2;
-          border-top: 100px solid #f4f4f2;
-      }
-  }
+@media only screen and (min-width: 1500px) {
+     #data-container {
+         border-bottom: 100px solid #f4f4f2;
+         border-top: 100px solid #f4f4f2;
+     }
+ }
