@@ -16,7 +16,6 @@
             text-decoration-line: none;
             color: #ffffff;
         }
-
     </style>
 </head>
 
@@ -296,7 +295,7 @@
                 klon.querySelector("#link4-overskrift").innerHTML = "<h2>" + indholdData.acf.h2_4 + "</h2>";
                 klon.querySelector("#link4-text").innerHTML = indholdData.acf.icontekst4;
 
-                klon.querySelector(".citat").textContent = indholdData.acf.citat;
+                klon.querySelector(".citat").innerHTML = indholdData.acf.citat;
 
                 klon.querySelector("#billede1").src = indholdData.acf.billede1;
                 klon.querySelector("#billede2").src = indholdData.acf.billede2;
@@ -385,7 +384,6 @@
                 }, 500, 'linear');
             });
         });
-
     </script>
 </body>
 
